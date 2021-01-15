@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+body {
+  font-family: Roboto; }
+
+.navigation-panel__logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline; }
+
+.navigation-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  margin: 0; }
+
+.navigation-links a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: #000000; }
+
+.navigation-links a:hover {
+  color: darkseagreen;
+  text-decoration: none; }
+
+@media all and (max-width: 800px) {
+  .navigation-links {
+    justify-content: space-around; } }
+
+@media all and (max-width: 600px) {
+  .navigation-links {
+    flex-flow: column wrap;
+    padding: 0; }
+  .navigation-links__button {
+    float: right;
+    flex-wrap: nowrap;
+    cursor: pointer; }
+  .navigation-links__button:hover {
+    color: darkseagreen;
+    text-decoration: none; } }
+
+.main__logo {
+  text-align: center;
+}
+
+
+p {
+  font-family: Roboto;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #1B1B1B; }
+
+h1,
+h2 {
+  margin: 80px auto;
+}
+
+.contacts {
+  height: 100%;
+  background-color: #F7F9FB;
+
+}
+
+
+
+
+
+
+.team__photo {
+  display: flex;
+  justify-content: center;
+}
+
+.info__about-us,
+.contacts {
+  text-align: center;
+}
+
+
+.footer {
+  margin: auto;
+  background-color: #3F3D56;
+  width: auto;
+  height: 4rem; }
+
+.icon {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #3F3D56;
+  width: auto; }
+
